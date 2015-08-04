@@ -551,10 +551,11 @@ h1.project_heading {
 }
 
 .sponsor img {
-    max-width: 132px;
-    height: 50px;
+    max-width: 300px;
+    height: 200px;
     margin: 50px auto;
     display: block;
+    padding: 01.5em;
 }
 
 .carousel-inner img
@@ -600,7 +601,7 @@ footer {
 .overlay,
 .callout .text-vertical,
 #testimonials {
-    padding: 200px 0;
+    padding: 150px 0;
 }
 
 
