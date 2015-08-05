@@ -499,6 +499,12 @@ label {
     padding: 50px 0 50px 0;
 }
 
+div.row.project {
+    padding-top: 35px;
+    padding-left: 5em;
+
+}
+
 #portfolio h3 {
     font-family: 'Special Elite', sans-serif;
     font-size: 1.8em;
@@ -506,8 +512,12 @@ label {
 
 h1.project_heading {
     font-family: 'Special Elite', sans-serif;
-    padding-bottom: 1em;
-    padding-left: .5em;
+    padding-bottom: .5em;
+    padding-left: 2em;
+}
+
+p.github {
+    text-transform: uppercase;
 }
 
 .portfolio-modal .modal-content {
@@ -559,6 +569,10 @@ h1.project_heading {
 #sponsor {
     padding: 30px 0;
     background: #f2f2f2;
+}
+
+#sponser.row {
+    padding-left: .5em;
 }
 
 .sponsor img {
