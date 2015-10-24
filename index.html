@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
 
-    <title>Peter Estrada</title>
+    <title>Levitate Web Development</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -29,11 +29,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.smallipop.css">
 
-    <!-- IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -70,18 +65,26 @@
 </nav>
 
 <!-- Header -->
-<header id="top" class="header">
+<header id="" class="header">
     <div class="text-vertical">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-5 col-md-offset-1">
-                    <br><h1>Hi,</h1>
+                <div class="col-md-5">
+                    <br><br><h1>Hi,</h1>
                     <h2>My name is Peter</h2>
                     <p>I am a Web Designer & Front End Developer</p>
 
                     <h2>Where am I?</h2>
-                    <p>You can find me in the San Francisco Bay Area enjoing everything that's offered here. <br> From hiking to camping, the beaches & sun to the snow & of course, The SF Giants, 49ers and the Golden State Warriors! </p>
+                    <p>You can find me in the San Francisco Bay Area enjoying everything that's offered here. <br> From hiking to camping, the beaches & sun to the snow & of course, The SF Giants, 49ers and the Golden State Warriors! </p>
 
+                </div>
+                <div class="row">
+                <div class="col-sm-3 col-sm-offset-3">
+                    <br><br><br>
+                    <h2>WhatI'mLookingFor(){</h2>
+                    <p>I am looking to work with/for a company that fosters a strong team enviorment and is on the edge of technology and changing the world. I love learing new technologly, languages and am constantly striving for the best code and top results.</p>
+
+                    <h2>};</h2>
                 </div>
             </div>
             <!-- mouse -->
@@ -101,9 +104,9 @@
     <h1>Three Of My Most Favorite Things Ever</h1>
         <div class="row">
             <div class="col-sm-12 text-center wow fadeIn">
-                <img src="img/petergiants.jpg" class="col-sm-4 smallipop" title="Giants @ ATT Park!"style="height:400px; width:450px; ">
-                <img src="img/niners.jpg" class="col-sm-4 smallipop" title="49er Game With Dad @ Candlestick!"style="height:400px; width:450px; ">
-                <img src="img/warriors.jpg" class="col-sm-4 smallipop" title="Golden State Warriors!" style="height:400px; width:450px; ">
+                <img src="img/petergiants.jpg" class="col-sm-4 smallipop " id="peterGiants" title="Giants @ ATT Park!"style="height:400px; width:450px; ">
+                <img src="img/niners.jpg" class="col-sm-4 smallipop " id="niners" title="49er Game With Dad @ Candlestick!"style="height:400px; width:450px; ">
+                <img src="img/warriors.jpg" class="col-sm-4 smallipop " id="warriors" title="Golden State Warriors!" style="height:400px; width:450px; ">
             </div>
         </div>
     </div>
@@ -118,7 +121,15 @@
                         <div class="row">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay=".2s">
                                 <h3> <i class="fa fa-connectdevelop fa-2x"></i>Skills from Design</h3>
-                                <p>In my short time learing and teaching myself, I have gained a great knowledge of: <br><i class="fa fa-html5 fa-lg"></i>HTML5 & <i class="fa fa-css3 fa-lg"></i>CSS & BootStrap <br><br> Currently working on JavaScript, JQuery & JQuery UI, AngularJS, PHP & NodeJS.( Not in that order) </p>
+                                <p>In my short time learning and teaching myself, I have gained a great working knowledge of:</p>
+                                    <ul class="skills list-unstyled">
+                                         <li><i class="fa fa-html5 fa-lg"></i>HTML5</li>
+                                         <li><i class="fa fa-css3 fa-lg"></i>CSS</li>
+                                         <li>Javascript</li>
+                                         <li>JQuery</li>
+                                         <li>AngularJS</li>
+                                         <li>Currently learning NodeJS</li>
+                                    </ul>
                             </div>
                             <div class="col-sm-6 wow fadeIn" data-wow-delay=".6s">
                                 <h3><i class="fa fa-university fa-2x"></i>Skills from Hospitality</h3>
@@ -134,19 +145,19 @@
     </div>
 </section>
 
-<!-- call-to-action -->
-<div class="call-to-action">
+<!-- <!-- call-to-action -->
+<!-- <div class="call-to-action">
     <div class="container-fluid">
             <div class="col-lg-5 col-lg-offset-1">
                 <div id="carousel-call-to-action" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
-                    <ol class="carousel-indicators">
+                    <!-- <ol class="carousel-indicators">
                         <li data-target="#carousel-call-to-action" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-call-to-action" data-slide-to="1"></li>
                         <li data-target="#carousel-call-to-action" data-slide-to="2"></li>
-                    </ol>
+                    </ol> -->
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
+                    <!-- <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="carousel-caption">
                                 <img src="img/hba.jpg" class="hba" title="Hotel Bel-Air, Wolfgang Puck" style="height:400px;width:400px;">
@@ -159,18 +170,18 @@
                         </div>
                         <div class="item">
                             <div class="carousel-caption">
-                                <img src="img/sf.jpeg" class="sf" title="City By The Bay" style="height:400px;width:400px;">
+                                <img src="img/sf-ferry.jpeg" class="sf" title="City By The Bay" style="height:400px;width:400px;">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-            <div class="col-lg-4 col-lg-offset-2 text-center wow fadeIn">
-                <h2>Through my work I have seen some beauitufl places.</h2>
+           <!--  <div class="col-lg-4 col-lg-offset-2 text-center wow fadeIn">
+                <h2>Through my work I have seen some beautiful places.</h2>
                  <P> Starting in Half Moon Bay at the Ritz-Carlton, then heading down to LA @ Hotel Bel-Air, Wolfgang-Puck.<br>Everything has led me back here <br>to the San Francisco Bay Area.</p>
-            </div>
+            </div> -->
     </div>
-</div>
+</div> 
 
 <section id="portfolio">
     <div class="container-fluid">
@@ -179,16 +190,16 @@
             <div class="row project" style="background-color:#e4e4e4;">
                 <div class="col-sm-4 wow fadeIn" data-wow-delay=".2s">
                     <h3><i class="fa fa-desktop fa-lg"></i>&nbsp; Cruiser Clothing Company</h3>
-                    <p>This is a project I started with a friend. A clothing compnay with original designs for a younger demograhic that has a solid following so far. </p>
+                    <p>This is a project I started with a friend. A clothing company with original designs for a younger demographic that has a solid following so far. </p>
                 </div>
 
                 <div class="col-sm-4 col-sm-offset-2 wow fadeIn" data-wow-delay=".4s"  >
-                    <img src="img/cruiseri1.png">
+                    <a href="projects/cruiser_main/index.html"><img src="img/cruiser1.png"></a>
                 </div>
             </div>
             <div class="row project" >
                 <div class="col-sm-3 wow fadeIn" data-wow-delay=".2s"  >
-                    <img src="img/barbershop1.png">
+                    <a href="projects/barbershop/index.html"><img src="img/barbershop1.png"></a>
                 </div>
                 <div class="col-sm-4 col-sm-offset-3 wow fadeIn" data-wow-delay=".6s">
                     <h3><i class="fa fa-black-tie fa-lg"></i>&nbsp;&nbsp;Barbershop & Tattoo </h3>
@@ -198,12 +209,12 @@
             <div class="row project" style="background-color:#e4e4e4;">
                 <div class="col-sm-4  wow fadeIn" data-wow-delay=".2s">
                     <h3><i class="fa fa-odnoklassniki fa-lg"></i>&nbsp;&nbsp;Professional Portfolio</h3>
-                    <p>I created this for my sister. There is a little bit of everything here, parallax, JS amoung some others.</p>
+                    <p>I created this for my sister. There is a little bit of everything here, Parallax, JS amoung some others.</p>
                 </div>
                 <div class="col-sm-3 col-sm-offset-2 wow fadeIn" data-wow-delay=".4s"  >
-                    <img src="img/lucy1.png">
+                    <a href="projects/lucy/index.html"><img src="img/lucy1.png"></a>
                 </div>
-            </div>
+            </div> 
         </div>
     </div>
 </section>
@@ -221,8 +232,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center wow fadeIn">
-                <h2 class="heading">My Aspirations</h2>
-                <h3>My largest goal is to literally travel the world. From South America to Australia, Indonesia to India, Russia to the Norwegian lands.<br> During that jouney I hope to somewhere along the line start a family and a company that gives back to those who need help. <br> Everyone deserves a second chance.</h3>
+                <h3 class="heading">My Aspirations</h3>
+                <p>My largest goal is to literally travel the world. From South America to Australia, Indonesia to India, Russia to the Norwegian lands.<br> During that jouney I hope to somewhere along the line start a family and a company that gives back to those who need help. <br> Everyone deserves a second chance.</p>
             </div>
         </div>
     </div>
@@ -317,49 +328,13 @@
     </div>
 </div>
 
-
-<!-- testimonials -->
-<section id="testimonials">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <h2 class="heading">Companies & Teams That I Would Love To Work With</h2>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- sponsors -->
-<div id="sponsor">
-    <div class="container-fluid">
-        <div class="row sponsor text-center wow fadeInLeftBig">
-            <div class="col-sm-2 gray col-sm-offset-1">
-                <a href="/"><img src="img/google-logo.png" alt=""></a>
-            </div>
-            <div class="col-sm-2 gray ">
-                <a href="/"><img src="img/jet-logo.png" alt=""></a>
-            </div>
-            <div class="col-sm-2 gray">
-                <a href="/"><img src="img/giants-logo.png" alt=""></a>
-            </div>
-            <div class="col-sm-2 gray ">
-                <a href="/"><img src="img/netflix-logo.png" alt=""></a>
-            </div>
-            <div class="col-sm-2 gray ">
-                <a href="/"><img src="img/bonobos-logo.png" alt=""></a>
-            </div>
-
-        </div>
-    </div>
-</div>
-
 <!-- contacts -->
 <div id="contact">
     <div class="container-fluid overlay text-center">
         <div class="col-md-7 col-md-offset-2 wow fadeIn">
             <h2 class="heading">Contact Me</h2>
             <h2><i class="fa fa-phone fa-fw"></i>(650) 400-6255</h2>
-            <p>Feel free to contact me to discuss how I can help you achieve your gloals</p>
+            <p>Feel free to contact me to discuss how I can help you achieve your goals</p>
                 <ul class="list-inline">
                     <li>
                         <a href="http://www.twitter.com/paestSF"><i class="fa fa-twitter fa-2x fa-fw"></i></a>

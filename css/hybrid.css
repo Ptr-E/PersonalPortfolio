@@ -64,7 +64,7 @@ h1, h2, h3 {
 }
 
 h1, .heading {
-    font-family: 'Mystery Quest', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 5em;
     line-height: 52px;
     margin-bottom: 35px;
@@ -86,6 +86,7 @@ h2.heading {
 }
 
 h3 {
+    font-family: 'Special Elite', sans-serif;
     line-height: 1.5;
 }
 
@@ -97,7 +98,16 @@ p {
     font-size: 1.5em;
 }
 
+ul.skills {
+    font-size: 1.5em;
+    padding: 0 0;
+    text-align: center;
+}
 
+img#garyDanko {
+    border-radius: 10px;
+    border:10px solid black;
+}
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -510,6 +520,12 @@ div.row.project {
     font-size: 1.8em;
 }
 
+.col-sm-3.wow.fadeIn.animated,
+ .col-sm-4.wow.fadeIn.animated {
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
 h1.project_heading {
     font-family: 'Special Elite', sans-serif;
     padding-bottom: .5em;
@@ -581,6 +597,10 @@ p.github {
     margin: 50px auto;
     display: block;
     padding: 01.5em;
+}
+
+.sponser img:nth-child(3) {
+    padding-right: 30px;
 }
 
 .carousel-inner img
